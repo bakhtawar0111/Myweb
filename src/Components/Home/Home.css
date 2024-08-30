@@ -1,0 +1,26 @@
+.home{
+    height: 100vh;
+    background-image: url("../homebg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+@media (max-width:660px) {
+    .description{
+        font-size: small;
+        width: 90vw;
+    }
+    .home{
+        height: auto;
+    }
+    .home-content .font-mono{
+        font-size: 30px;
+    }
+    .title{
+        width: 384px;
+    }
+}

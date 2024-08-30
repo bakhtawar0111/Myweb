@@ -1,0 +1,20 @@
+.details ul li{
+    font-size: small;
+    margin-top: 3px;
+    color: rgb(216, 215, 215);
+}
+.details ul p{
+    margin-bottom: 2px;
+}
+.details ul{
+    margin: 15px 5vw;
+}
+
+@media (max-width:660px) {
+    .footer{
+        justify-content: center;
+    }
+    .details ul{
+        margin: 25px auto;
+    }
+}
